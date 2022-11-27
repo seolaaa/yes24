@@ -12,7 +12,7 @@ a {
     color: black;
 }
 
-ul#skipmenu-list li a:focus {
+ul#skipmenu_list li a:focus {
     width: 100%;
     height: 25px;
     font-size: 14px;
