@@ -24,3 +24,51 @@ ul#skipmenu_list li a:focus {
     z-index: 99999;
 }
 /*기본설정끝*/
+
+/*헤더시작*/
+#header_wrap{
+    width: 100%;
+    height: 189px;
+    background: red;
+}
+
+header{
+    width: 1200px;
+    margin: 0px auto;
+}
+
+#header_top{
+    width: 100%;
+    height: 99px;
+    background: yellow;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#logo{
+    width: 271px;
+    height: 99px;
+}
+
+#search{
+    width: 600px;
+    height: 70px;
+    margin-left: 10px;
+    border: solid 1px #176AB3;
+    font: normal 16px/24px 'Noto Sans';
+    padding-left: 10px;
+    box-sizing: border-box;
+}
+
+#search_btn{
+    width: 70px;
+    height: 70px;
+    margin-left: 10px;
+    background: white;
+    border: solid 1px #176AB3;
+}
+
+.fa-magnifying-glass{
+    color: #176AB3;
+}
