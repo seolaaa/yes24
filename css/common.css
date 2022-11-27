@@ -39,7 +39,7 @@ header{
 
 #header_top{
     width: 100%;
-    height: 99px;
+    height: 123px;
     background: yellow;
     display: flex;
     align-items: center;
@@ -71,4 +71,26 @@ header{
 
 .fa-magnifying-glass{
     color: #176AB3;
+}
+
+#header_bottom{
+    width: 600px;
+    height: 66px;
+    background-color: beige;
+}
+
+#mainmenu{
+    width: 100%;
+    height: 100%;
+    font: normal 18px/27px 'Noto Sans';
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    background-color: aquamarine;
+}
+
+.sub_wrap{
+    display: none;
 }
