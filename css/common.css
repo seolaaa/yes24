@@ -95,18 +95,25 @@ header{
     top: 0px;
 }
 
-.sub_wrap{
+.mainmenu_list{
     position: relative;
     left: 0px;
-    top: 0px;  
+    right: 0px;  
 }
 
-.sub{
+.sub_wrap{
     background-color: rebeccapurple;
     width: 1200px;
     height: 444px;
     position: absolute;
-    top: 0px;
-    left: -600px;
-    margin-left: 50%;
+    left: 0px;
+    margin-left: -350px;
+    top: 48px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.sub{
+   
 }
