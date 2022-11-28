@@ -111,13 +111,18 @@ header{
     top: 48px;
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: flex-end;
 }
 
 #field_title{
     position: absolute;
     top: 20px;
     left: 100px;
+}
+
+#sub_list_wrap_title{
+    background: yellow;
+    margin-right: 200px;
 }
 
 .sub_list_wrap{
