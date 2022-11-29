@@ -156,12 +156,19 @@ header{
     margin-bottom: 0px;
 }
 
-.first_sub_title{
-    position: absolute;
+.sub_title{
+    position:absolute;
     top: -40px;
+}
+
+.first_sub_title{
     left: 68px;
 }
 
-.one,.two{
+.second_sub_title{
+    left: 270px;
+}
+
+.one,.two,.three,.four,.five,.six,.seven,.eight{
     display: none;
 }
