@@ -123,7 +123,6 @@ header{
 
 .sub_list_wrap{
     width: 200px;
-    background: red;
 
 }
 
@@ -131,6 +130,14 @@ header{
     position: absolute;
     left: 100px;
     /* visibility: hidden; */
+}
+#sub_list_wrap_title::before{
+    content: "";
+    width: 2px;
+    height: 292px;
+    background-color: black;
+    position: absolute;
+    left: 200px;
 }
 
 .sub_in_title{
@@ -142,6 +149,8 @@ header{
 .sub_in_title{
     margin-bottom:12px;
 }
+
+
 
 .sub_in_title:hover{
     font: bold 18px/26px 'Noto Sans';
@@ -171,6 +180,10 @@ header{
 
 .sub_list:last-child{
     margin-bottom: 0px;
+}
+
+.sub_list:hover{
+    font: bold 16px/24px 'Noto Sans';
 }
 
 .sub_title{
