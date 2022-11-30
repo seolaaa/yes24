@@ -104,7 +104,7 @@ header{
 .sub_wrap{
     background-color: rebeccapurple;
     width: 1200px;
-    height: 444px;
+    height: 400px;
     position: absolute;
     left: 0px;
     margin-left: -350px;
@@ -120,11 +120,6 @@ header{
     left: 100px;
 }
 
-#sub_list_wrap_title{
-    background: yellow;
-    position: absolute;
-    left: 100px;
-}
 
 .sub_list_wrap{
     width: 200px;
@@ -132,17 +127,39 @@ header{
 
 }
 
-.sub{
-    
+#sub_list_wrap_title{
+    position: absolute;
+    left: 100px;
+    /* visibility: hidden; */
+}
+
+.sub_in_title{
+    width: 200px;
+    text-align: center;
+    font: normal 18px/26px 'Noto Sans';
+}
+
+.sub_in_title{
+    margin-bottom:12px;
+}
+
+.sub_in_title:hover{
+    font: bold 18px/26px 'Noto Sans';
+    color: #176AB3;
+}
+
+.sub li:last-child{
+    margin-bottom:0px;
 }
 
 .sub_all_list_wrap{
     display: flex;
     position: absolute;
-    left: 200px;
-    top: 20px;
+    left: 300px;
+    top: 10px;
     align-items: center;
     justify-content: center;
+ 
 }
 
 .sub_list{
@@ -169,6 +186,6 @@ header{
     left: 270px;
 }
 
-.one,.two,.three,.four,.five,.six,.seven,.eight{
+.one,.two,.three,.four,.five,.six,.seven{
     display: none;
 }
