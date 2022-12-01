@@ -7,9 +7,6 @@
     position: absolute;
 }
 
-body{
-    background:bisque;
-}
 
 a {
     text-decoration: none;
@@ -119,7 +116,7 @@ header{
     transform:scaleX(1);
 }
 
-
+/*서브메뉴 큰 틀*/
 .sub_wrap{
     background-color: rgb(255, 255, 255);
     width: 1200px;
@@ -128,12 +125,12 @@ header{
     left: 0px;
     margin-left: -350px;
     top: 48px;
-    display: flex;
+    display: none;
     align-items: center;
     justify-content: center;
-
-    /* visibility: hidden; */
+    overflow: hidden;
 }
+/*서브메뉴 큰 틀 끝*/
 
 #field_title{
     position: absolute;
@@ -149,8 +146,7 @@ header{
 #sub_list_wrap_title{
     position: absolute;
     left: 100px;
-
-    /* visibility: hidden; */
+    display: none;
 }
 #sub_list_wrap_title::before{
     content: "";
@@ -222,6 +218,14 @@ header{
     left: 270px;
 }
 
-.two,.three,.four,.five,.six,.seven,.eight{
+.one,.two,.three,.four,.five,.six,.seven,.eight{
     display: none;
 }
+
+.nine{
+    left: -120px;
+    top: 120px;
+    display: none;
+}
+
+/*헤더 끝*/
