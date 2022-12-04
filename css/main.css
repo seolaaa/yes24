@@ -69,6 +69,12 @@
     display: flex;
     background: #176AB3;
     margin-top: 130px;
+    position: relative;
+}
+
+#today_book_main_title{
+    position: absolute;
+    top: 0px;
 }
 
 #today_book_list{
