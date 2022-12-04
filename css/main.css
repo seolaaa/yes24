@@ -10,13 +10,47 @@
 
 #main_image_list{
     width: 300%;
+    height: 592px;
     display: flex;
+    position: relative;
 
 }
 
 #main_image_list li{
     width: 100%;
 }
+
+#main_image_list li:nth-child(2){
+    visibility: hidden;
+}
+#main_image_list li:nth-child(3){
+    visibility: hidden;
+}
 #main_image_list li img{
     width: 100%;
 }
+
+#main_image_list p{
+    position: absolute;
+}
+
+.main_image_small_title{
+    font: normal 30px/45px 'YES24';
+    left: 90px;
+}
+
+.main_image_big_title{
+    font: bold 42px/63px 'YES24';
+    top: 400px;
+    left: 90px;
+}
+
+.title_up{
+    top: 320px;
+}
+
+.title_down{
+    top: 550px;
+}
+
+

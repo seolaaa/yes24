@@ -7,10 +7,14 @@
     position: absolute;
 }
 
-
 a {
     text-decoration: none;
     color: black;
+}
+
+@font-face {
+    font-family:'YES24';
+    src: url(../font/YES24.woff) format('woff');
 }
 
 ul#skipmenu_list li a:focus {
