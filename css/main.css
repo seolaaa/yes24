@@ -113,6 +113,36 @@
     margin-top: 20px;
     font: normal 16px/24px 'Noto Sans';
 }
+
+#tab_content{
+    width: 100%;
+    background-color: red;
+}
+
+#pick_book_wrap{
+    width: 100%;
+    height: 1071px;
+    display: flex;
+    align-items: center;
+    background-color: aliceblue;
+}
+
+#pick_tabmenu{
+    width: 100%;
+    height: 814px;
+    background: #ECECEC;
+    display: flex;
+    justify-content: center;
+}
+
+#pick_tabmenu li{
+    display: flex;
+    align-items: center;
+}
+
+#books_pick_list{
+    display: flex;
+}
  
 
 
