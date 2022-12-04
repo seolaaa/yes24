@@ -1,0 +1,22 @@
+/*메인시작*/
+
+#main_wrap{
+    width: 100%;
+}
+
+#main_image{
+    width: 100%;
+}
+
+#main_image_list{
+    width: 300%;
+    display: flex;
+
+}
+
+#main_image_list li{
+    width: 100%;
+}
+#main_image_list li img{
+    width: 100%;
+}
