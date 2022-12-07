@@ -114,14 +114,67 @@
     font: normal 16px/24px 'Noto Sans';
 }
 
+#tabmenu_wrap{
+    width: 100%;
+    height: 800px;
+    background: red;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    margin-top: 50px;
+}
 
+.tab_item{
+    width: calc(100%/8);
+    height: 50px;
+    border-bottom: 3px solid #333333;
+    background-color: #f8f8f8;
+    line-height: 50px;
+    font-size: 16px;
+    text-align: center;
+    color: #333333;
+    display: block;
+    float: left;
+    text-align: center;
+    font-weight: bold;
+    transition: all 0.2s ease;
+  }
+  .tab_item:hover{
+    height: 70px;
+  }
+  
+  input[name="tab_item"]{
+    display: none;
+  }
+
+  #tabmenu_wrap input:checked + .tab_item {
+    background-color: #ECECEC;
+    color: #000;
+  }
+
+  .tab_content {
+    display: none;
+    padding: 40px 40px 0;
+    clear: both;
+    overflow: hidden;
+    background: #ECECEC;
+  }
+
+#book_pick:checked ~ #book_content,
+#ebook_pick:checked ~ #ebook_content,
+#comic_pick:checked ~ #comic_content,
+#cd_lp_pick:checked ~ #cd_lp_content
+#dvd_pick:checked ~ #dvd_content,
+#ticket_pick:checked ~ #ticket_content,
+#Phrases_pick:checked ~ #phrases_content,
+#used_pick:checked ~ #used_content{
+  display: block;
+}
 
 /* #tab_content{
     width: 100%;
     background-color: red;
 } */
 
-/* #pick_book_wrap{
+#pick_book_wrap{
     width: 100%;
     height: 1071px;
     display: flex;
@@ -145,6 +198,3 @@
 #books_pick_list{
     display: flex;
 }
- 
-
- */
