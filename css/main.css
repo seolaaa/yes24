@@ -119,7 +119,8 @@
     height: 800px;
     background: red;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
-    margin-top: 50px;
+    padding-top: 50px;
+    box-sizing: border-box;
 }
 
 .tab_item{
@@ -138,7 +139,7 @@
     transition: all 0.2s ease;
   }
   .tab_item:hover{
-    height: 70px;
+    transform: scaleY(1.1);
   }
   
   input[name="tab_item"]{
@@ -152,7 +153,9 @@
 
   .tab_content {
     display: none;
-    padding: 40px 40px 0;
+    width: 100%;
+    height: 694px;
+    padding: 40px;
     clear: both;
     overflow: hidden;
     background: #ECECEC;
@@ -197,4 +200,34 @@
 
 #books_pick_list{
     display: flex;
+}
+
+#tab_side_title_wrap{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#tab_side_title_wrap p{
+    margin-left: 15px;
+}
+#tab_side_title_wrap p:first-child{
+    margin-left: 0px;
+}
+
+#tab_side_title_wrap::after{
+    content: "";
+    width: 1px;
+    height: 18px;
+    background: black;
+    position: absolute;
+    right: 947px;
+}
+#tab_side_title_wrap::before{
+    content: "";
+    width: 1px;
+    height: 18px;
+    background: black;
+    position: absolute;
+    right: 867px;
 }
