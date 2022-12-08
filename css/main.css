@@ -155,7 +155,6 @@
     display: none;
     width: 100%;
     height: 694px;
-    padding: 40px;
     clear: both;
     overflow: hidden;
     background: #ECECEC;
@@ -199,10 +198,14 @@
 }
 
 #books_pick_list{
+    margin-top: 75px;
     display: flex;
+    justify-content: space-around;
+    align-items: center;
 }
 
 #tab_side_title_wrap{
+    margin-top: 30px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -221,7 +224,7 @@
     height: 18px;
     background: black;
     position: absolute;
-    right: 947px;
+    right: 986px;
 }
 #tab_side_title_wrap::before{
     content: "";
@@ -229,5 +232,5 @@
     height: 18px;
     background: black;
     position: absolute;
-    right: 867px;
+    right: 908px;
 }
