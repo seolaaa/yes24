@@ -228,6 +228,10 @@
     margin-left: 0px;
 }
 
+#tab_side_title_wrap p:hover{
+    font: bold 16px/24px 'Noto Sans';
+}
+
 #tab_side_title_wrap::after{
     content: "";
     width: 1px;
