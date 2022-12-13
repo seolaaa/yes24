@@ -326,7 +326,6 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    background: red;
 }
 
 #book_explanation{
@@ -373,7 +372,9 @@
 
 #book_explanation_box img{
     position: absolute;
-    right: 100px;
+    right: 90px;
     bottom: 30px;
 }
+
+/*하단책소개끝*/
 
