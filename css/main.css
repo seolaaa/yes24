@@ -274,16 +274,19 @@
 
 #mini_advertisement_wrap{
     width: 100%;
-    height: 468px;
+    height: 245px;
     background-color: #176AB3;
 }
 
 #mini_advertisement_list{
-    width: 300%;
-    height: 245px;
+    width: 100%;
+    height: 100%;
     display: flex;
     align-items: center;
     background: rgb(185, 185, 185);
+    position: relative;
+    left: 0px;
+    top: 0px;
 }
 #mini_advertisement_list li{
     width: 100%;
@@ -292,8 +295,23 @@
     align-items: center;
     justify-content: center;
     font: normal 30px/45px 'Yes24';
+    position: absolute;
+    left: 0px;
+}
+
+#mini_advertisement_list img{
+    margin-right: 20px;
 }
 
 #mini_advertisement_list li:first-child{
     background: #FDF6C9;
+    opacity: 1;
+}
+#mini_advertisement_list li:nth-child(2){
+    background: #994EFF;
+    opacity: 0;
+}
+#mini_advertisement_list li:last-child{
+    background: #5037D5;
+    opacity: 0;
 }
