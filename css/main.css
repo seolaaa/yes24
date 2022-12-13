@@ -345,4 +345,35 @@
 #book_explanation_box li{
     width: 50%;
     display: flex;
+    position: relative;
+    left: 0px;
+    top: 150px;
 }
+
+.box_explanation_bg{
+    width: 533px;
+    height: 135px;
+    position: absolute;
+    bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    background-color: #EAEAEA;
+    padding: 10px;
+    box-sizing: border-box;
+}
+
+.box_explanation_title{
+    font: bold 18px/27px 'Noto Sans';
+}
+
+.box_explanation_text{
+    font: normal 18px/27px 'Noto Sans';
+}
+
+#book_explanation_box img{
+    position: absolute;
+    right: 100px;
+    bottom: 30px;
+}
+
