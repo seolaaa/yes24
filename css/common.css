@@ -264,7 +264,13 @@ footer{
 #footer_up a{
     font: normal 14px/21px 'Noto Sans';
     color: #787878;
+    transition: all 0.2s;
 }
+
+#footer_up a:hover{
+    color: black;
+}
+   
 
 #footer_down{
     width: 100%;
@@ -323,4 +329,9 @@ footer{
 
 #footer_list_wrap li a{
     color: #787878;
+    transition: all 0.2s;
+}
+
+#footer_list_wrap li a:hover{
+    color: black;
 }
