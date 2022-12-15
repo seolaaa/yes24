@@ -247,7 +247,6 @@ footer{
 #footer_wrap{
     width: 1200px;
     height: 100%;
-    background: red;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -259,6 +258,10 @@ footer{
     display: flex;
     justify-content: space-evenly;
     align-items: center;
+   
+}
+
+#footer_up a{
     font: normal 14px/21px 'Noto Sans';
     color: #787878;
 }
@@ -275,6 +278,10 @@ footer{
     text-align: center;
     font: normal 14px/21px 'Noto Sans';
     color: #949494;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 #footer_logo p{
@@ -284,5 +291,36 @@ footer{
 #footer_info{
     width: 50%;
     height: 100%;
-    background: yellow;
+    font: normal 14px/21px 'Noto Sans';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#info_title{
+    color: #949494;
+    margin-bottom: 16px;
+}
+
+#info_text{
+    color: #787878;
+}
+
+#footer_list_ver_info{
+    width: 20%;
+    font: normal 14px/21px 'Noto Sans';
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#footer_list_wrap{
+    list-style-type:disc;
+    color: #787878;
+}
+
+#footer_list_wrap li a{
+    color: #787878;
 }
