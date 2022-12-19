@@ -295,13 +295,15 @@ footer{
 }
 
 #footer_info{
-    width: 50%;
+    width: 40%;
     height: 100%;
     font: normal 14px/21px 'Noto Sans';
     display: flex;
     flex-direction: column;
     justify-content: center;
-    align-items: center;
+    align-items: flex-start;
+    padding-left: 30px;
+    box-sizing: border-box;
 }
 
 #info_title{
@@ -314,12 +316,13 @@ footer{
 }
 
 #footer_list_ver_info{
-    width: 20%;
+    width: 30%;
     font: normal 14px/21px 'Noto Sans';
     display: flex;
     flex-direction: column;
     justify-content: center;
     align-items: center;
+
 }
 
 #footer_list_wrap{
